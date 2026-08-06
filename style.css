@@ -494,3 +494,146 @@ footer p{
     }
 
 }
+   /* ==========================================
+   PRODUCTS PAGE
+========================================== */
+
+.products-hero{
+    background: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+    url("images/banner.png") center center/cover;
+    color:#fff;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.products-hero h1{
+    font-size:48px;
+    margin-bottom:20px;
+    font-weight:700;
+}
+
+.products-hero p{
+    max-width:700px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.search-section{
+    max-width:1200px;
+    margin:40px auto;
+    padding:0 20px;
+}
+
+.search-section input{
+    width:100%;
+    padding:18px;
+    font-size:17px;
+    border:2px solid #ddd;
+    border-radius:8px;
+    outline:none;
+}
+
+.product-category{
+    max-width:1200px;
+    margin:80px auto;
+    padding:0 20px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title span{
+    color:#e60012;
+    font-weight:600;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+.section-title h2{
+    font-size:38px;
+    margin-top:10px;
+}
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+   .product-card{
+
+    background:#fff;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.10);
+
+    transition:.35s;
+
+    text-align:center;
+
+}
+
+.product-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.product-card img{
+
+    width:100%;
+
+    height:280px;
+
+    object-fit:cover;
+
+}
+
+.product-card h3{
+
+    margin-top:20px;
+
+    font-size:24px;
+
+}
+
+.product-card p{
+
+    padding:15px 20px;
+
+    color:#666;
+
+    line-height:1.7;
+
+}
+
+.product-card .btn{
+
+    display:inline-block;
+
+    margin:20px;
+
+    padding:12px 30px;
+
+    background:#e60012;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    border-radius:30px;
+
+    transition:.3s;
+
+}
+
+.product-card .btn:hover{
+
+    background:#000;
+
+}
